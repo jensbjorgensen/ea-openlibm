@@ -14,6 +14,8 @@
 #include <openlibm_fenv_mips.h>
 #elif defined(__s390__)
 #include <openlibm_fenv_s390.h>
+#elif defined(__wasm32__)
+#include <openlibm_fenv_wasm32.h>
 #else
 #error "Unsupported platform"
 #endif
